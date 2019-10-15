@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue Experiment</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="vue-app">
+        <div>
+            <h1>Prueba uno</h1>
+            <h1>{{ title }}</h1>
+            <h4>Name: {{ name }}</h4>
+            <h4>Job: {{ job }}</h4>
+            <h2>{{ greet('afternoon') }}</h2>
+        </div>
+        <div>
+          <h1>Prueba dos: Data Binding</h1>
+          <p>Name: {{ name }}</p>
+          <a href= "">iara's page</a>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

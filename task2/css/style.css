@@ -1,0 +1,37 @@
+
+body{
+  background: #77D354;
+}
+
+h2{
+  color: #F5F88F;
+}
+
+.card-title{
+  color: #77D354;
+}
+
+.nav-wrapper {
+    background: #06284D;
+   }
+
+   .sidenav{
+    background: #0D4B94;
+   }
+
+   .tabs .tab {
+    background: #0D4B94;
+   }
+
+   .tabs .indicator{
+    background-color:#F5F88F;
+    height: 8px;
+  }
+
+  .tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: #2661e0;
+  }
+
+  .collapsible-body{
+    background: #dddddd;
+  }
